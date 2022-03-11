@@ -1,0 +1,17 @@
+{
+	"name": "multiple-youtube-links-to-mp3",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "chrisgamedev",
+	"license": "ISC",
+	"dependencies": {
+		"fluent-ffmpeg": "^2.1.2",
+		"fs": "^0.0.1-security",
+		"pkg": "^5.5.2",
+		"ytdl-core": "^4.11.0"
+	}
+}
