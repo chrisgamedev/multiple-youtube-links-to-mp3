@@ -1,0 +1,1 @@
+pkg -t latest-win-x64 index.js

@@ -41,6 +41,7 @@ async function download(url)
     });
     
     let title = info.videoDetails.title;
+    title = title.replace(/[/\\?%*:|"<>]/g, '-');
 
     ffmpeg(stream)
         .audioBitrate(128)
